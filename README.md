@@ -21,3 +21,16 @@ This project processes, cleans, and visualizes raw passenger data from the Titan
 ```bash
 pip install pandas matplotlib seaborn numpy
 python task1_data_cleaning_visualization.py
+# Task 2: Predictive Modeling Using Machine Learning
+
+## Objective
+Build and evaluate supervised machine learning models to classify breast cancer tumors as Malignant or Benign using clinical features.
+
+## Workflow
+1. **Data Preprocessing:** Handled features from the Breast Cancer Wisconsin dataset; standardized inputs using `StandardScaler`.
+2. **Model Training:** Implemented **Logistic Regression** and **Random Forest Classifier**.
+3. **Evaluation:** Evaluated performance using Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and ROC-AUC.
+4. **Results:**
+   - Model: Random Forest Classifier
+   - Accuracy: ~96%
+   - ROC-AUC: ~0.99
