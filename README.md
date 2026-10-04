@@ -29,6 +29,21 @@ Build and evaluate supervised machine learning models to classify breast cancer 
    - Model: Random Forest Classifier
    - Accuracy: ~96%
    - ROC-AUC: ~0.99
+  
+# Task 3: Exploratory Data Analysis (EDA) Project
+
+## Project Overview
+This project performs an end-to-end Exploratory Data Analysis on the Titanic dataset to discover demographic and ticket-related factors affecting passenger survival.
+
+## Key Insights
+1. **Gender Influence:** Female passengers had a significantly higher survival rate (~74%) than male passengers (~19%).
+2. **Socio-Economic Class:** First-class passengers experienced higher survival rates compared to third-class passengers.
+3. **Correlation:** Ticket fare and passenger class showed a strong correlation with overall survival likelihood.
+
+## Tech Stack
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
 
 ## How to Run
 ```bash
