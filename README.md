@@ -16,12 +16,7 @@ This project processes, cleans, and visualizes raw passenger data from the Titan
    - **Survival Rate by Gender:** Confirmed females had a significantly higher survival probability (~74% vs ~19%).
    - **Age Distribution:** Children under 10 had a higher likelihood of rescue.
    - **Class Analysis:** 1st class passengers showed higher survival rates compared to 3rd class passengers.
-
-## How to Run
-```bash
-pip install pandas matplotlib seaborn numpy
-python task1_data_cleaning_visualization.py
-# Task 2: Predictive Modeling Using Machine Learning
+   - # Task 2: Predictive Modeling Using Machine Learning
 
 ## Objective
 Build and evaluate supervised machine learning models to classify breast cancer tumors as Malignant or Benign using clinical features.
@@ -34,3 +29,8 @@ Build and evaluate supervised machine learning models to classify breast cancer 
    - Model: Random Forest Classifier
    - Accuracy: ~96%
    - ROC-AUC: ~0.99
+
+## How to Run
+```bash
+pip install pandas matplotlib seaborn numpy
+python task1_data_cleaning_visualization.py
